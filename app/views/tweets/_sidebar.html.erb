@@ -1,15 +1,27 @@
-
-<div id="sidebar">
-    <p>ホーム</p>
-    <p>話題を検索</p>
-    <p>通知</p>
-    <p>メッセージ</p>
-    <p>ブックマーク</p>
-    <p>リスト</p>
-    <p>プロフィール</p>
-    <span style ="background-color:lightblue">
+<!DOCTYPE html>
+<html>
+  <head>
+    <body>
+        <div id="sidebar">
+            <p><%=image_tag 'home.jpg' , class:'home'%>ホーム</p>
+            <p><%=image_tag 'search.jpg' , class:'search'%>話題を検索</p>
+            <p><%=image_tag 'c.jpg' , class:'c'%>通知</p>
+            <p><%=image_tag 'message.jpg' , class:'message'%>メッセージ</p>
+            <p><%=image_tag 'bookmark.jpg' , class:'bookmark'%>ブックマーク</p>
+            <p><%=image_tag 'list.jpg' , class:'list'%>リスト</p>
+            <p><%=image_tag 'pro.jpg' , class:'pro'%>プロフィール</p>
+            
+            
+            
+            
+            
+            <span style ="background-color:lightblue">
     <%= link_to 'ツイートする', 'tweets/new' %>
     </span>
-    
+        
+    </body></div>
+  </head>
 
-</div>
+  
+</html>
+

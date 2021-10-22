@@ -28,6 +28,35 @@
    
 }
 
+.home {
+    width: 60px;
+  height: 30px;
+}
+.search {
+    width: 60px;
+  height: 30px;
+}
+.c{
+    width: 60px;
+  height: 30px;
+}
+.message {
+    width: 60px;
+  height: 30px;
+}
+.bookmark {
+    width: 60px;
+  height: 30px;
+}
+.list{
+    width: 60px;
+  height: 30px;
+}
+.pro{
+    width: 60px;
+  height: 30px;
+}
+
 #footer{
     
       font-size:20px; margin:100;
